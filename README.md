@@ -6,13 +6,13 @@
 Phishing attacks are among the most common cyber security threats. Attackers often disguise malicious URLs as legitimate ones to trick users into providing sensitive information.
 This project builds a machine learning-based classifier to detect malicious URLs using:
 
-# TF-IDF Vectorization
-# Multinomial Naive Bayes
-# Confusion Matrix
-# ROC Curve & AUC Score
-# Accuracy evaluation
-# Real-time URL prediction
-# The model learns patterns from a dataset of labeled URLs and predicts whether a new URL is good or bad.
+TF-IDF Vectorization
+Multinomial Naive Bayes
+Confusion Matrix
+ROC Curve & AUC Score
+Accuracy evaluation
+Real-time URL prediction
+The model learns patterns from a dataset of labeled URLs and predicts whether a new URL is good or bad.
 
 📁 Dataset
 
@@ -28,13 +28,13 @@ http://freemoney-scams.ru   -bad
 
 🛠️ Technologies Used
 
-# Python
-# Scikit-learn
-# Pandas
-# NumPy
-# Matplotlib
-# TF-IDF Vectorizer
-# Multinomial Naive Bayes
+Python
+Scikit-learn
+Pandas
+NumPy
+Matplotlib
+TF-IDF Vectorizer
+Multinomial Naive Bayes
 
 📘 Project Workflow
 1. Load and Inspect Dataset
@@ -54,10 +54,10 @@ Transform URL strings into numerical vectors using TF-IDF.0
 5. Model Evaluation
 Metrics used:
 
-    # Accuracy Score
-    # Confusion Matrix
-    # ROC Curve
-    # AUC Score
+    Accuracy Score
+    Confusion Matrix
+    ROC Curve
+    AUC Score
 These help measure classification performance and false positives/negatives.
 
 6. Real-Time URL Prediction
@@ -113,6 +113,6 @@ This project demonstrates a simple yet effective machine learning approach to ph
 
 The project is useful for:
 
-# Cybersecurity learning
-# Text classification practice
-# Real-world ML model deployment
+Cybersecurity learning
+Text classification practice
+Real-world ML model deployment
