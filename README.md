@@ -95,26 +95,35 @@ Enter the URL to test: http://example-test.com
 Prediction: bad
 
 📊 Visualization Examples
+
 ✔️ Class Distribution Plot
+
 (Shows how many URLs are labeled good vs bad.)
 
 ✔️ Confusion Matrix
+
 (Indicates how many URLs were correctly and incorrectly classified.0
 
 ✔️ ROC Curve
+
 (Evaluates tradeoff between true positive and false positive rates.)
 
 🧠 Code Snippet (Main Components)
+
 (Full code is included inside the repository)
 
 vectorizer = TfidfVectorizer()
+
 X_train_vec = vectorizer.fit_transform(X_train)
+
 X_test_vec = vectorizer.transform(X_test)
 
 model = MultinomialNB()
+
 model.fit(X_train_vec, y_train)
 
 predictions = model.predict(X_test_vec)
+
 accuracy = accuracy_score(y_test, predictions)
 
 📈 Results
@@ -141,6 +150,8 @@ This project demonstrates a simple yet effective machine learning approach to ph
 
 The project is useful for:
 
-Cybersecurity learning,
-Text classification practice,
+Cybersecurity learning
+
+Text classification practice
+
 Real-world ML model deployment.
