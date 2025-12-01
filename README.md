@@ -4,6 +4,7 @@
 📌 Project Overview
 
 Phishing attacks are among the most common cyber security threats. Attackers often disguise malicious URLs as legitimate ones to trick users into providing sensitive information.
+
 This project builds a machine learning-based classifier to detect malicious URLs using:
 
 ->TF-IDF Vectorization
@@ -31,7 +32,9 @@ URL	         The URL string
 Label	      good or bad classification
 
 Example:
+
 https://google.com          -good
+
 http://freemoney-scams.ru   -bad
 
 🛠️ Technologies Used
@@ -52,20 +55,25 @@ Multinomial Naive Bayes
 
 📘 Project Workflow
 1. Load and Inspect Dataset
+   
 (The CSV file is loaded using pandas, and the first few rows are displayed for verification.)
 
-2. Exploratory Data Analysis (EDA)
+3. Exploratory Data Analysis (EDA)
+   
 (A bar plot shows distribution of good vs bad URLs.
 This helps identify dataset balance.)
 
-3. Data Preprocessing
+5. Data Preprocessing
+   
 (Split data into training and testing sets (80/20).
 Transform URL strings into numerical vectors using TF-IDF.0
 
-4. Model Training
+7. Model Training
+   
 (We train a Multinomial Naive Bayes classifier, which works well for text-based features.)
 
-5. Model Evaluation
+9. Model Evaluation
+    
 Metrics used:
 
     Accuracy Score
@@ -75,12 +83,15 @@ Metrics used:
     ROC Curve
    
     AUC Score
+    
 These help measure classification performance and false positives/negatives.
 
-7. Real-Time URL Prediction
+11. Real-Time URL Prediction
 
 User can input any URL:
+
 Enter the URL to test: http://example-test.com
+
 Prediction: bad
 
 📊 Visualization Examples
