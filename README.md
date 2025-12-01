@@ -6,7 +6,7 @@
 Phishing attacks are among the most common cyber security threats. Attackers often disguise malicious URLs as legitimate ones to trick users into providing sensitive information.
 This project builds a machine learning-based classifier to detect malicious URLs using:
 
-TF-IDF Vectorization
+->TF-IDF Vectorization
 Multinomial Naive Bayes
 Confusion Matrix
 ROC Curve & AUC Score
