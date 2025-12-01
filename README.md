@@ -8,11 +8,16 @@ This project builds a machine learning-based classifier to detect malicious URLs
 
 ->TF-IDF Vectorization
 
-Multinomial Naive Bayes
-Confusion Matrix
-ROC Curve & AUC Score
-Accuracy evaluation
-Real-time URL prediction
+->Multinomial Naive Bayes
+
+->Confusion Matrix
+
+->ROC Curve & AUC Score
+
+->Accuracy evaluation
+
+->Real-time URL prediction
+
 The model learns patterns from a dataset of labeled URLs and predicts whether a new URL is good or bad.
 
 📁 Dataset
