@@ -25,7 +25,9 @@ The model learns patterns from a dataset of labeled URLs and predicts whether a 
 The dataset used in this project (project2.csv) contains two columns:
 
 Column	    Description
-URL	        The URL string
+
+URL	         The URL string
+
 Label	      good or bad classification
 
 Example:
@@ -35,11 +37,17 @@ http://freemoney-scams.ru   -bad
 🛠️ Technologies Used
 
 Python
+
 Scikit-learn
+
 Pandas
+
 NumPy
+
 Matplotlib
+
 TF-IDF Vectorizer
+
 Multinomial Naive Bayes
 
 📘 Project Workflow
@@ -61,12 +69,15 @@ Transform URL strings into numerical vectors using TF-IDF.0
 Metrics used:
 
     Accuracy Score
+   
     Confusion Matrix
+   
     ROC Curve
+   
     AUC Score
 These help measure classification performance and false positives/negatives.
 
-6. Real-Time URL Prediction
+7. Real-Time URL Prediction
 
 User can input any URL:
 Enter the URL to test: http://example-test.com
