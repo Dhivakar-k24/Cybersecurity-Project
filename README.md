@@ -7,6 +7,7 @@ Phishing attacks are among the most common cyber security threats. Attackers oft
 This project builds a machine learning-based classifier to detect malicious URLs using:
 
 ->TF-IDF Vectorization
+
 Multinomial Naive Bayes
 Confusion Matrix
 ROC Curve & AUC Score
