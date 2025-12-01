@@ -113,6 +113,6 @@ This project demonstrates a simple yet effective machine learning approach to ph
 
 The project is useful for:
 
-Cybersecurity learning
-Text classification practice
-Real-world ML model deployment
+Cybersecurity learning,
+Text classification practice,
+Real-world ML model deployment.
